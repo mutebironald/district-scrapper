@@ -9,7 +9,14 @@ let getData = html => {
   $("table.wikitable tr td:nth-child(2)").each((i, elem) => {
     data.push($(elem).text());
   });
-  console.log({ districts: data }, 'here');
+  data.sort((a,b) => { 
+    if(a>b){
+      return 1
+    }
+    return -1
+    // return a.localeCompare(b)
+   })
+  console.table( data);
   return {
     districts: data
   };
