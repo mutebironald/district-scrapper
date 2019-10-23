@@ -14,7 +14,7 @@ let getData = html => {
       return 1
     }
     return -1
-    // return a.localeCompare(b)
+    // return a.localeCompare(b) this also works
    })
   console.table( data);
   return {
