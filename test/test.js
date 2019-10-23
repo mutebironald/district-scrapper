@@ -7,3 +7,19 @@ describe('Array', function() {
   });
 });
 
+beforeEach(function(){
+  brow
+})
+
+describe('index', function(){
+  describe('#UrlData', function(){
+    it('should fetch data from wikipedia', function(done){
+      var url = "https://en.wikipedia.org/wiki/Districts_of_Uganda";
+      return new Promise(function (resolve){
+
+      })
+
+
+    })
+  })
+})
