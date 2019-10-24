@@ -1,7 +1,7 @@
 {
-  "name": "ug-districts",
+  "name": "udistricts",
   "version": "1.0.0",
-  "description": "",
+  "description": "A package to install ugandan districts",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
