@@ -9,25 +9,20 @@ let getData = html => {
   $("table.wikitable tr td:nth-child(2)").each((i, elem) => {
     data.push($(elem).text());
   });
-  data.sort((a,b) => { 
-    if(a>b){
-      return 1
-    }
-    return -1
-    // return a.localeCompare(b) this also works
-   })
-  console.table( data);
-  return {
-    districts: data
-  };
+
+  return new Promise((resolve, reject) => {
+    resolve(data); // wrap districts in resolve
+    reject("Failed to retrieve data"); // failed to get districts
+  });
 };
 
-function urlData() {
-  axios
+const urlData = () => {
+  return axios
     .get(url)
-    .then(response => {
-        getData(response.data)
-    })
+    .then(response => getData(response.data))
     .catch(error => console.log(error));
-}
-urlData()
+};
+
+module.exports = {
+  path: urlData()
+};
