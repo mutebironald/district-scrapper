@@ -1,4 +1,4 @@
-Districts of Uganda
+## Districts of Uganda
 
 npm install districts-uganda
 
@@ -8,6 +8,8 @@ This package returns a promise. Therefore to access the district names, you will
 
 - then names.path.then(districts => districts.map(d => console.log(d))).catch(error => console.log(error))
 
-\*\* Have fun with it.
+**Have fun with it.**
 
-\*\* Author Ronald Mutebi
+### Author
+
+Ronald Mutebi
