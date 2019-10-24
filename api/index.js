@@ -10,6 +10,13 @@ let getData = html => {
     data.push($(elem).text());
   });
 
+  data.sort((a, b) => {
+    if (a > b) {
+      return 1;
+    }
+    return -1;
+  });
+
   return new Promise((resolve, reject) => {
     resolve(data); // wrap districts in resolve
     reject("Failed to retrieve data"); // failed to get districts
