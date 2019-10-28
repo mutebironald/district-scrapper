@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/mutebironald/district-scrapper.svg?token=uNbpByFVLu8G28ZejRXs&branch=master)](https://travis-ci.com/mutebironald/district-scrapper)
 
+[![Coverage Status](https://coveralls.io/repos/github/mutebironald/district-scrapper/badge.svg?branch=master)](https://coveralls.io/github/mutebironald/district-scrapper?branch=master)
+
 npm install udistricts
 
 This package returns a promise. Therefore to access the district names, you will have to:
