@@ -1,6 +1,6 @@
 ## Districts of Uganda
 
-https://travis-ci.com/mutebironald/district-scrapper.svg?token=uNbpByFVLu8G28ZejRXs&branch=master
+[![Build Status](https://travis-ci.com/mutebironald/district-scrapper.svg?token=uNbpByFVLu8G28ZejRXs&branch=master)](https://travis-ci.com/mutebironald/district-scrapper)
 
 npm install udistricts
 
