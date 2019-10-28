@@ -1,5 +1,7 @@
 ## Districts of Uganda
 
+https://travis-ci.com/mutebironald/district-scrapper.svg?token=uNbpByFVLu8G28ZejRXs&branch=master
+
 npm install udistricts
 
 This package returns a promise. Therefore to access the district names, you will have to:
