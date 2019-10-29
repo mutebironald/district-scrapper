@@ -29,12 +29,6 @@ describe ("Should fetch url data", function() {
       .finally(done);
   });
 
-  // it('handles a promise rejection', () => {
-  //   new Promise(reject => {
-  //     setTimeout(() => reject('woops'), 500)
-  //   })
-  // })
-
   it('stubs a func', function(){
     sinon.stub(obj, 'fn').returns(Promise.resolve())
   })
