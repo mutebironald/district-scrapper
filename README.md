@@ -13,7 +13,9 @@ This package returns a promise. Therefore to access the district names, you will
 - then names.path.then(districts => districts.map(d => console.log(d))).catch(error => console.log(error))
 
 ### Alternatively:
-- you can destructure the path from the package i.e const { path } = require('udistricts')
+- you can destructure the path from the package i.e 
+ ```js const { path } = require('udistricts')``` 
+
 - path.then(districts => districts.map(d => console.log(d))).catch(error => console.log(error))
 
 **Have fun with it.**
