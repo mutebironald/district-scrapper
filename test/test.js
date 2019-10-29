@@ -4,13 +4,6 @@ const expect = chai.expect;
 
 const { path } = require("../api/index.js");
 
-const sinon = require('sinon');
-
-
-const obj = {
-  fn: () => {}
-}
-
 
 describe ("Should fetch url data", function() {
 
@@ -23,17 +16,9 @@ describe ("Should fetch url data", function() {
     resolvingPromise
       .then(result => {
         expect(result).to.equal(new Array(135));
-        // ex
       })
       .catch(error => console.log(error.message))
       .finally(done);
   });
-
-  it('stubs a func', function(){
-    sinon.stub(obj, 'fn').returns(Promise.resolve())
-  })
-
-
-
 
 });
