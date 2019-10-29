@@ -6,3 +6,6 @@
 .nyc_output
 
 package-lock.json
+
+#keep token to prevent false coverage submissions
+.coveralls.yml
