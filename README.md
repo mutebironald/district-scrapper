@@ -35,8 +35,8 @@ Pull Requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate
 
-**Have fun with it.**
-
 ### Author
 
 Ronald Mutebi
+
+**Have fun with it.**
