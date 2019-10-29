@@ -27,7 +27,7 @@ let getData = html => {
       data[i] = data[i].replace("\n", "");
     }
   }
-
+  //sort in alphabetical order
   data.sort((a, b) => {
     if (a > b) {
       return 1;
@@ -35,6 +35,7 @@ let getData = html => {
     return -1;
   });
 
+  //create an array of non-duplicate districts
   data = [...new Set(data)];
 
   return new Promise((resolve, reject) => {
