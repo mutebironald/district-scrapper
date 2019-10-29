@@ -1,6 +1,6 @@
 # Districts of Uganda
 
-[![Build Status](https://travis-ci.com/mutebironald/district-scrapper.svg?token=uNbpByFVLu8G28ZejRXs&branch=master)](https://travis-ci.com/mutebironald/district-scrapper) [![Coverage Status](https://coveralls.io/repos/github/mutebironald/district-scrapper/badge.svg?branch=fix-travis-buid)](https://coveralls.io/github/mutebironald/district-scrapper?branch=fix-travis-buid)
+[![Build Status](https://travis-ci.com/mutebironald/district-scrapper.svg?token=uNbpByFVLu8G28ZejRXs&branch=master)](https://travis-ci.com/mutebironald/district-scrapper) [![Coverage Status](https://coveralls.io/repos/github/mutebironald/district-scrapper/badge.svg?branch=master)](https://coveralls.io/github/mutebironald/district-scrapper?branch=master)
 
 ## Installation
 
