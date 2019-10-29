@@ -4,7 +4,9 @@
 
 ## Installation
 
+```js
 npm install udistricts
+```
 
 ### Working with the package
 
