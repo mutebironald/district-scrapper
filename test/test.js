@@ -2,7 +2,7 @@
 var chai = require("chai");
 const expect = chai.expect;
 
-const { path } = require("../api/index.js");
+const { path } = require("../index.js");
 
 
 describe ("Should fetch url data", function() {
