@@ -1,8 +1,5 @@
 const axios = require("axios");
 const cherio = require("cherio");
-const https = require("https");
-const fs = require("fs");
-const path = require("path");
 const url =
   "https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/wiki/Districts_of_Uganda";
 
@@ -49,7 +46,7 @@ let getData = html => {
   });
 };
 
-axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 const urlData = async () => {
   await axios
     .get(url, {
