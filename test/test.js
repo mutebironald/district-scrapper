@@ -2,22 +2,22 @@
 var chai = require("chai");
 const expect = chai.expect;
 
-const { path } = require("../index.js");
+const { getDistricts } = require("../index.js");
 
 
 describe ("Should fetch url data", function() {
 
   it("UrlData is called", done => {
-    console.log(path, 'path')
     const resolvingPromise = new Promise((resolve, reject) => {
-      resolve(path);
+      resolve(getDistricts);
       reject("Failed to retrieve data")
-    });
+    });    
     resolvingPromise
       .then(result => {
-        expect(result).to.equal(new Array(135));
+        expect(typeof result).to.equal('object')
+        expect(result.length).to.equal(135);
       })
-      .catch(error => console.log(error.message))
+      .catch(error => console.log(error.message, 'here is the error', error))
       .finally(done);
   });
 
