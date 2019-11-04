@@ -1,8 +1,5 @@
 const axios = require("axios");
 const cherio = require("cherio");
-const https = require("https");
-const fs = require("fs");
-const path = require("path");
 const url =
   "https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/wiki/Districts_of_Uganda";
 
