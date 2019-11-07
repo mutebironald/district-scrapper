@@ -12,21 +12,13 @@ npm install udistricts
 
 This package returns a promise. Therefore to access the district names, you will have to:
 
-- require the package i.e
-
-```js
- const names = require('udistricts')
-
-names.path.then(districts => districts.map(d => console.log(d))).catch(error => console.log(error))
-```
-
-### Alternatively
+- require the package.
 
 - you can destructure the path from the package i.e
 
  ```js
-  const { path } = require('udistricts')
-  path.then(districts => districts.map(d => console.log(d))).catch(error => console.log(error))
+  const { getDistricts } = require('udistricts')
+  getDistricts.then(districts => districts.map(d => console.log(d))).catch(error => console.log(error))
 ```
 
 ### Contributing
